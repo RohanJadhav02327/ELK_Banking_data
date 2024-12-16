@@ -1,6 +1,10 @@
 **ELK Banking Data**
 This repository contains demo banking logs, along with the mapping policy and Logstash configuration files for parsing and visualizing the data in the ELK stack.
 
+****** Prerequisites******
+**ELK Stack:** Ensure you have Elasticsearch, Logstash, and Kibana installed.
+**Filebeat:** To forward the logs to Logstash.
+
 **📄 Sample Log Line**
 
 Below is an example log entry for the banking domain:

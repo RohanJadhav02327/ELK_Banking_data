@@ -4,6 +4,7 @@ This repository contains demo banking logs, along with the mapping policy and Lo
  Prerequisites
  
 **ELK Stack:** Ensure you have Elasticsearch, Logstash, and Kibana installed.
+
 **Filebeat:** To forward the logs to Logstash.
 
 **📄 Sample Log Line**

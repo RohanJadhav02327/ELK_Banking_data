@@ -7,6 +7,7 @@ This repository contains demo banking logs, along with the mapping policy and Lo
 
 **Filebeat:** To forward the logs to Logstash.
 
+
 **📄 Sample Log Line**
 
 Below is an example log entry for the banking domain:

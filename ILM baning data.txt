@@ -1,0 +1,41 @@
+PUT /_template/banking_data?pretty=true
+{
+  "index_patterns": [
+    "banking_data*"
+  ],
+  "settings": {
+    "index.lifecycle.name": "banking_data"
+  },
+  "mappings": {
+    "properties": {
+      "date": {
+        "type": "date"
+      },
+    "transaction_id": {
+        "type": "integer"
+     },
+    "user": {
+        "type": "keyword"
+     },
+    "payment_method": {
+        "type": "keyword"
+     },
+    "amount": {
+        "type": "integer"
+     },
+    "status": {
+        "type": "keyword"
+     },
+    "payment_gateway": {
+        "type": "keyword"
+     },
+    "error": {
+        "type": "keyword"
+     }
+     
+    }
+  },
+  "aliases": {
+    "banking_data_logs": {}
+  }
+}
